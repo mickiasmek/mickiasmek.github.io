@@ -23,7 +23,7 @@ div#profile_picture img{
     padding: 5px;
 }
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
