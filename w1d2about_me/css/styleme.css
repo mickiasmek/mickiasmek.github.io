@@ -3,12 +3,12 @@ body{
     padding: 0;
     font-size: 100%;
     line-height: 1;
-    background-color: antiquewhite;
+    background-color: rgb(22, 126, 103);
 }
 h2.about_me{
-    color: cadetblue;
+    color: rgb(56, 204, 209);
     font-family: Arial, Helvetica, sans-serif;
-}
+}   
 .mood_gifs{
     display: flex;
 }
@@ -18,7 +18,7 @@ h2.about_me{
 }
 p#short_desc span{
     font-weight: bold;
-    color: brown;
+    color:#e7dd4d;
 }
 .footer {
     position: fixed;
