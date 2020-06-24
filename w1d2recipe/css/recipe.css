@@ -51,14 +51,20 @@ h1#main_head{
 span#cake{
     text-decoration: line-through;
 }
-p.copyright{
+p.copyright {
     color: #404040;
+    white-space: pre-line;
+    text-align: left;
+    
+}
+p.copyright span{
+    float: right;
 }
 .footer {
     position: relative;
     left: 0;
     bottom: 0;
-    width: 100%;
     color: white;
-    float: left;
+    float: right;
+    
  }
