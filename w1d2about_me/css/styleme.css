@@ -1,0 +1,31 @@
+body{
+    margin: 2vw 3vh;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+    background-color: antiquewhite;
+}
+h2.about_me{
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mood_gifs{
+    display: flex;
+}
+.gif{
+    flex: 33.33%;
+    padding: 5px;
+}
+p#short_desc span{
+    font-weight: bold;
+    color: brown;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    float: left;
+    padding-left: 1%;
+ }
