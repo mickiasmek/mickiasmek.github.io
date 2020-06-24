@@ -24,6 +24,22 @@ h1#main_head{
     font-weight: bold;
     font-size: 22pt;
 }
+span#user_comment p{
+    text-align: left;
+    background-color: #FFFFA8 ;
+    white-space: pre-line;
+    margin: 2vw;
+    padding: 1vw;
+
+}
+span#user_comment p > span{
+    font-style: italic;
+}
+
+#directions_ordered_list li > span{
+    font-weight: bold;
+
+}
 
 .tooltip {
     position: relative;
