@@ -14,18 +14,6 @@ div#profile_picture img{
     height: 200px;
     border-radius: 50%;
 }
-
-.mood_gifs{
-    display: flex;
-}
-.gif{
-    flex: 33.33%;
-    padding: 5px;
-}
-p#short_desc span{
-    font-weight: bold;
-    color: brown;
-}
 .footer {
     position: fixed;
     left: 0;
