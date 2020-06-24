@@ -29,7 +29,8 @@ span#user_comment p{
     text-align: left;
     background-color: #FFFFA8 ;
     white-space: pre-line;
-    margin: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     padding: 1vw;
 
 }
