@@ -15,11 +15,12 @@ a{
     color: #A4A400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2{
     color: #A4A400;
     background-color: #F0F0F0;
     font-family: Lucida, sans-serif, Helvetica, Arial;
     text-decoration: underline;
+    letter-spacing: 0.25em;
 }
 h1#main_head{
     text-align: center;
@@ -43,6 +44,9 @@ div#user_comment p > span{
     font-weight: bold;
 
 }
+ul {
+    list-style-image: url('/w1d2recipe/recipeImages/pie_icon.gif');
+  }
 
 .tooltip {
     position: relative;
@@ -67,6 +71,7 @@ div#user_comment p > span{
 .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
 span#cake{
     text-decoration: line-through;
 }
