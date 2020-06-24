@@ -25,7 +25,7 @@ h1#main_head{
     font-weight: bold;
     font-size: 22pt;
 }
-span#user_comment p{
+div#user_comment p{
     text-align: left;
     background-color: #FFFFA8 ;
     white-space: pre-line;
@@ -34,7 +34,7 @@ span#user_comment p{
     padding: 1vw;
 
 }
-span#user_comment p > span{
+div#user_comment p > span{
     font-style: italic;
 }
 
