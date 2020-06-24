@@ -57,7 +57,7 @@ p.copyright{
 .footer {
     position: absolute;
     left: 0;
-    bottom: 1pt;
+    bottom: 0;
     width: 100%;
     color: white;
     float: left;
