@@ -5,7 +5,7 @@
     @media only screen and (max-width: 600px){
         .item1{
             grid-area: header;
-            background-color: rgb(172, 248, 248);
+            background-color: rgb(173, 216, 230);
             height: 60px;
             text-align: center;
        }
@@ -13,6 +13,7 @@
         .item2{
             grid-area: menus;
             background-color: rgb(19, 102, 102);
+            color: aliceblue;   
         }
         .item3{
             grid-area: columns;
@@ -30,13 +31,18 @@
             'menus menus menus menus menus menus'
             'columns columns columns columns columns columns'
             'footer footer footer footer footer footer';
-            grid-gap: 10px;
-            padding: 10px;
+            
+            
         }
         .item2{
             display: flex;
             flex-direction: row;
             font-size: 20px;
+        }
+        .item2 div{
+            border-right: 1px black solid;
+            margin-right: 20px;
+            padding-right: 10px;
         }
        
         .item3{
@@ -45,25 +51,22 @@
         
         }
         .item3 #col1{
-            height: 60px;
+            height: 200px;
             background-color: darkgrey;
             width: 33%;
             border-right: black 1px solid;
            
         }
         .item3 #col2{
-            
-            height: 60px;
+            height: 200px;
             background-color: darkgrey;
             width: 33%;
             border-right: black 1px solid;
-            flex-direction: row;
             
            
         }
         .item3 #col3{
-            display: flex;
-            height: 60px;
+            height: 200px;
             background-color: darkgrey;
             width: 33%;
            
@@ -73,7 +76,7 @@
     @media only screen and (min-width: 600px){
         .item1{
             grid-area: header;
-            background-color: rgb(172, 248, 248);
+            background-color: rgb(173, 216, 230);
             height: 60px;
             text-align: center;
        }
@@ -81,6 +84,7 @@
         .item2{
             grid-area: menus;
             background-color: rgb(19, 102, 102);
+            color: aliceblue;   
         }
         .item3{
             grid-area: columns;
@@ -98,13 +102,18 @@
             'menus menus menus menus menus menus'
             'columns columns columns columns columns columns'
             'footer footer footer footer footer footer';
-            grid-gap: 10px;
-            padding: 10px;
+            
+            
         }
         .item2{
             display: flex;
             flex-direction: row;
             font-size: 20px;
+        }
+        .item2 div{
+            border-right: 1px black solid;
+            margin-right: 20px;
+            padding-right: 10px;
         }
        
         .item3{
@@ -113,14 +122,14 @@
         
         }
         .item3 #col1{
-            height: 60px;
+            height: 200px;
             background-color: darkgrey;
             width: 33%;
             border-right: black 1px solid;
            
         }
         .item3 #col2{
-            height: 60px;
+            height: 200px;
             background-color: darkgrey;
             width: 33%;
             border-right: black 1px solid;
@@ -128,7 +137,7 @@
            
         }
         .item3 #col3{
-            height: 60px;
+            height: 200px;
             background-color: darkgrey;
             width: 33%;
            
