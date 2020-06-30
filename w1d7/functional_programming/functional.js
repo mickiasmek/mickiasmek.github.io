@@ -7,7 +7,7 @@ function multiply(param) {
 }
 
 function reverse(param) {
-    return param.split("").reverse().join("");
+    return param.split("").reduce((rev,char)=> char + rev, '');
 
 }
 function filterLongWords(param, number) {
