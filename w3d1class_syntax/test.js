@@ -109,7 +109,7 @@ describe("Checking Account Class Methods Test", () => {
         const checkingAccount = getInstace();
         checkingAccount._balance = 0;
         checkingAccount.setOverdraft(150);
-        expect(checkingAccount.withdraw(151)).to.be.a("number").and.equal(-40);
+        expect(checkingAccount.withdraw(149)).to.be.a("number").and.equal(-149);
 
 
     })
