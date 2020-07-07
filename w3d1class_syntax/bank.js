@@ -16,7 +16,7 @@ class Bank {
         let savingsAccount = new SavingAccount(Bank.nextNumber, interest);
         Bank.nextNumber++;
         this._accounts.push(savingsAccount);
-        return account.getNumber();
+        return savingsAccount.getNumber();
 
     }
 
@@ -24,7 +24,7 @@ class Bank {
         let checkingAccount = new CheckingAccount(Bank.nextNumber, overdraft);
         Bank.nextNumber++;
         this._accounts.push(checkingAccount);
-        return account.getNumber();
+        return checkingAccount.getNumber();
     }
 
     closeAccount(number) {

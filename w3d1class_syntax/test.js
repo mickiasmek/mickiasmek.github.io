@@ -130,7 +130,20 @@ describe("Bank Class Methods Test", () => {
     function getInstace(){
         return new Bank();
     }
-    it()
+    
+    it("Method to Add Account", 
+    ()=>{
+        const bank = getInstace();
+       // bank.addAccount();
+        expect(bank.addAccount()).to.be.a("number").and.equal(0);
+    })
+
+    it("Method to add Saving Account",
+    ()=>{
+        const bank = getInstace();
+        expect(bank.addSavingsAccount(2.3)).to.be.a("number").and.equal(1);
+
+    })
 
 
 
