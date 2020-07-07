@@ -17,7 +17,10 @@ class CheckingAccount extends Account {
         //Can withdraw overdraft up to 250 dollars
         if (amount > this._balance && amount < this._overdraft){
             return this._balance -= amount;
+        }else if(amount > this._balance && amount > this._overdraft){
+            throw Error("You have exceeded the overdraft limit");
         }
+        
         super.withdraw();//then call the parent withdraw
         
     }

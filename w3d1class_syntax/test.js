@@ -104,6 +104,16 @@ describe("Checking Account Class Methods Test", () => {
 
     })
 
+    it("Method to take money out of account with overdraft", 
+    ()=>{
+        const checkingAccount = getInstace();
+        checkingAccount._balance = 0;
+        checkingAccount.setOverdraft(150);
+        expect(checkingAccount.withdraw(151)).to.be.a("number").and.equal(-40);
+
+
+    })
+
     it("String representation for checking account",
     () => {
         const savingAccount = getInstace();
@@ -113,3 +123,15 @@ describe("Checking Account Class Methods Test", () => {
 
 });
 
+
+describe("Bank Class Methods Test", () => {
+    let expect = chai.expect;
+    
+    function getInstace(){
+        return new Bank();
+    }
+    it()
+
+
+
+});
