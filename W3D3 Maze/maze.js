@@ -2,17 +2,18 @@
 $(document).ready(function () {
     $("#maze .boundary").mouseover(function () {
         $("#maze .boundary").addClass("youlose");
-        setTimeout(function () { alert("Sorry, you lost. :["); }, 500);
+        $("#status").text("Sorry, you lost. :[");
     });
 
     $("#end").mouseover(function () {
-        alert("You win! :]");
-    })
+        $("#status").text("You win! :]");
 
-    $("#start").click(function(){
+    });
+    $("#start").click(function () {
+        $("#status").text("Click the \"S\" to begin.");
         $("#maze .boundary").removeClass("youlose");
-        
-    })
 
-    
+    });
+
+
 });
