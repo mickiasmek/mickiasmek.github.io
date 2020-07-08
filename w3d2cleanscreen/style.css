@@ -1,17 +1,20 @@
+body{
+    background-color: aliceblue;
+}
 .input-label {
-    padding: 5px 0px;
+    padding: 4px 0px;
 }
 
 #start {
-    padding: 5px;
-    background-color: #2a5a5e;
+   border-radius: 4px;
+    background-color: #537f83;
     color: white;
 }
 
 #input-form {
     position: fixed;
-    top: 50%;
-    left: 10px;
+    top: 45%;
+    left: 20px;
 }
 
 .circle {
