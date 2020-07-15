@@ -1,7 +1,7 @@
 $(function() {
     $("#send").click(function(){
         let id = $("#user_id").val();
-        $.get("http://jsonplaceholder.typicode.com/users/"+ id)
+        $.get("https://jsonplaceholder.typicode.com/users/"+ id)
         .done(function (data){
         console.log(data);
            $("#userId").text(data.id);
